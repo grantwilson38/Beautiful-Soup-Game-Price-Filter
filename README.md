@@ -1,4 +1,4 @@
-# Beautiful Soup Web Scraper
+# Beautiful Soup Web Scraper for Game Prices
 
 This Python script uses the BeautifulSoup library to scrape a webpage for 'h4' elements and associated prices. It then filters and prints the items that are below a user-specified price.
 
