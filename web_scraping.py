@@ -16,6 +16,10 @@ result = requests.get(url)
 doc = BeautifulSoup(result.text, "html.parser")
 
 prices = doc.find_all(text="$")
-parent = prices[0].parent
-strong = parent.find("strong")
-print(strong.string)
+
+if prices:
+    parent = prices[0].parent
+    strong = parent.find("strong")
+    print(strong.string)
+else:
+    print("No prices found")
