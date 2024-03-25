@@ -7,11 +7,11 @@ This Python script uses the BeautifulSoup library to scrape a webpage for 'h4' e
 - Python 3
 - BeautifulSoup
 - requests
-- You can install the required Python packages with pip:
+- You can install the required Python packages with pip: pip install beautifulsoup4 requests
 
 **Usage**
 
-To run the script, use the following command:
+To run the script, use the following command: python main.py
 
 When prompted, enter the URL of the webpage you want to scrape. The script will fetch the content of the webpage and parse it with BeautifulSoup.
 
